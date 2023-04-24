@@ -8,3 +8,7 @@ body {
 .w3-bar-item {
       font-size: 24px;
     }
+
+    .justify {
+        text-align: justify;
+      }  
