@@ -8,3 +8,16 @@ function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
 }
+
+function openLightbox(imageSrc, altText) {
+    var lightbox = document.getElementById('lightbox');
+    var lightboxImage = document.getElementById('lightbox-image');
+    lightbox.style.display = 'block';
+    lightboxImage.src = imageSrc;
+    lightboxImage.alt = altText;
+  }
+  
+  function closeLightbox() {
+    var lightbox = document.getElementById('lightbox');
+    lightbox.style.display = 'none';
+  }
