@@ -10,8 +10,9 @@
 
 <body class="w3-content" style="max-width:1920px" >
 
+
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-animate-left" style="z-index:3;width:300px; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center; background-size: cover;" id="mySidebar"><br>
   <div class="w3-container">
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
@@ -26,6 +27,8 @@
   </div>
 </nav>
 
+
+
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
@@ -33,11 +36,17 @@
 <div class="w3-main" style="margin-left:300px">
 
   <!-- Header -->
-  <header id="portfolio" style="background-color: rgb(58, 58, 58);">
-    <div class="w3-container w3-center">
-    <h1><b>PORTFOLIO</b></h1>
+  <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
+    <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
+      <div class="w3-container w3-center">
+        <h1><b>PORTFOLIO</b></h1>
+      </div>
+    </header>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
     </div>
-  </header>
+  </div>
+  
 
   <!----------------------------------------------------------------------------------------------------------------------------------------> 
   <div class="w3-row-padding w3-center">
@@ -129,12 +138,16 @@
 
    
   <!-- OJT Photo Grid-->
-  <header id="portfolio" style="background-color: rgb(58, 58, 58);">
-    <div class="w3-container w3-center">
-    <h1><b>I.T TECHNICAL SUPPORT EXPERIENCE
-    </b></h1>
+  <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
+    <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
+      <div class="w3-container w3-center">
+        <h1><b>I.T TECHNICAL SUPPORT</b></h1>
+      </div>
+    </header>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
     </div>
-  </header>
+  </div>
   
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
@@ -159,12 +172,16 @@
 
 <!---------------------------------------------------------------------------------------------------------------------------------------->
   
-<header id="portfolio" style="background-color: rgb(58, 58, 58);">
-  <div class="w3-container w3-center">
-  <h1><b>CERTIFICATES
-  </b></h1>
+<div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
+  <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
+    <div class="w3-container w3-center">
+      <h1><b>CERTIFICATES</b></h1>
+    </div>
+  </header>
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
   </div>
-</header>
+</div>
 
 <div class="w3-container w3-center w3-margin-bottom">
   <img src="assets/CumLaudeCerti.jpg" alt="Python Programming 2" style="width: 100%; height: auto;" class="w3-hover-opacity" onclick="openLightbox('assets/CumLaudeCerti.jpg');">
@@ -260,11 +277,16 @@
   <!-- Add some space between the certificates and the "ARTS" container -->
   <div style="height: 20px;"></div> <!-- You can adjust the height value for the desired spacing -->
   
-  <header id="portfolio" style="background-color: rgb(58, 58, 58);">
-    <div class="w3-container w3-center">
-      <h1><b>ARTS</b></h1>
-    </div>
+  <div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
+    <header id="portfolio" style="position: relative; padding: 20px; z-index: 1;">
+      <div class="w3-container w3-center">
+        <h1><b>ARTS</b></h1>
+      </div>
     </header>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+    </div>
+  </div>
 
     <!-- Add some space between the certificates and the "ARTS" container -->
   <div style="height: 20px;"></div> <!-- You can adjust the height value for the desired spacing -->
@@ -387,62 +409,69 @@
   
 <!--My introduction--> 
 
-<div class="w3-container w3-center" style="margin-bottom: 32px">
-  <header id="about" style="background-color: rgb(58, 58, 58); padding: 20px;">
+<div class="w3-container w3-center" style="margin-bottom: 32px; position: relative;">
+  <header id="about" style="position: relative; padding: 20px; z-index: 1;">
     <div class="w3-container w3-center">
       <h1><b>ABOUT ME</b></h1>
     </div>
   </header>
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif) no-repeat center center / cover; z-index: 0;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+  </div>
 </div>
 
-<div class="w3-center">
-  <img src="assets/prof3.jpg" style="width: 50%; height: 50%;" alt="Photo of me">
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div class="w3-center" style="border: 5px solid #ccc; padding: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.5); width: 50%; display: inline-block;">
+    <img src="assets/aboutme.png" style="width: 100%; height: auto;" alt="Photo of me">
+  </div>
 </div>
 
-<p class="justify" style="background-color: black; color: white; padding: 20px;">
+
+<p class="justify" style="background-color: black; color: white; padding: 20px; border: 5px solid #ccc; margin: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.5);">
   Hello! My name is Rej Mirasol (Regin Dell Mirasol), and I am an IT graduate with a passion for technology. 
   I have a good foundation in computer programming languages such as C# where I utilize it in Game Development in Unity 3D, 
-  as well as experience in web development using HTML,CSS and JavaScript. Additionally, I am proficient in Video and Photo editing, which has given me a 
+  as well as experience in web development using HTML, CSS, and JavaScript. Additionally, I am proficient in video and photo editing, which has given me a 
   well-rounded skill set to pursue my interests in both technology and creativity. I am also into developing Augmented Reality technology which helps me to become an all-rounder when it comes to knowledge about emerging technologies. 
   Aside from these pursuits in IT, I have a few hobbies that I enjoy during my free time. One of my hobbies is collecting academic certificates online. 
   I find it to be a great way of using my time since it also gives me additional knowledge and skills through these online courses. 
   Another hobby that I have is drawing, ever since I was a child, I've always loved to draw and create my own characters and stories. 
   It's a great way for me to express my creativity and imagination. I particularly enjoy sketching with pencils, pens, and brushes, 
-  and Now, I've even dabbled in digital art using graphic design software such as photoshop, then sometimes diving into 3D modeling and animation using Blender software.
+  and now, I've even dabbled in digital art using graphic design software such as Photoshop, then sometimes diving into 3D modeling and animation using Blender software.
 </p>
 
-<div style="padding: 20px; "> 
-  <h4 style="text-align: center;">TECHNICAL SKILLS</h4>
+<div style="padding: 20px; border: 5px solid #ccc; margin: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.5); background-color: black;">
+  <h4 style="text-align: center; color: white;">TECHNICAL SKILLS</h4>
   <!-- Progress bars / Skills -->
-  <p>Web Development - Entry Level (HTML,CSS,Javascript)</p>
-  <div class = "w3-grey">
+  <p style="color: white;">Web Development - Entry Level (HTML, CSS, JavaScript)</p>
+  <div class="w3-grey">
     <div class="w3-container w3-dark-grey w3-padding w3-center" style="width: 80%">80%</div>
   </div>
-  <p>System Administrator - Entry Level </p>
-  <div class = "w3-grey">
+  <p style="color: white;">System Administrator - Entry Level</p>
+  <div class="w3-grey">
     <div class="w3-container w3-dark-grey w3-padding w3-center" style="width: 75%">75%</div>
   </div>
-  <p> Networking - Entry level</p>
+  <p style="color: white;">Networking - Entry Level</p>
   <div class="w3-grey">
     <div class="w3-container w3-dark-grey w3-padding w3-center" style="width: 70%">70%</div>
   </div>
-  <p> Game Development (Unity 3D)</p>
+  <p style="color: white;">Game Development (Unity 3D)</p>
   <div class="w3-grey">
     <div class="w3-container w3-dark-grey w3-padding w3-center" style="width: 85%">85%</div>
   </div>
-  <p> Video Editing (Adobe Premiere, Da Vinci) and Photo Editing (Adobe Photoshop) </p>
+  <p style="color: white;">Video Editing (Adobe Premiere, Da Vinci) and Photo Editing (Adobe Photoshop)</p>
   <div class="w3-grey">
     <div class="w3-container w3-dark-grey w3-padding w3-center" style="width: 90%">90%</div>
   </div>
-  <p>Programming (Mainly C# and Python)</p>
+  <p style="color: white;">Programming (Mainly C# and Python)</p>
   <div class="w3-grey">
     <div class="w3-container w3-dark-grey w3-padding w3-center" style="width: 75%">75%</div>
   </div>
-  <p>IT/Technical Support</p>
+  <p style="color: white;">IT/Technical Support</p>
   <div class="w3-grey">
     <div class="w3-container w3-dark-grey w3-padding w3-center" style="width: 85%">85%</div>
   </div>
 </div>
+
 <hr>
 
   
@@ -450,26 +479,30 @@
 
   
    <!-- Footer/Contact Section-->
-   <footer>
-    <div class="w3-container w3-padding-large w3-grey w3-center">
-      <h4 id="contact"><b>CONTACT ME</b></h4>
+   <footer style="position: relative; padding: 20px; color: rgb(0, 0, 0);">
+    <div class="w3-container w3-padding-large w3-center" style="position: relative; z-index: 2;">
+      <h4 id="contact" style="color: white;"><b>CONTACT ME</b></h4>
       <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
         <div class="w3-third w3-dark-grey">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" alt="Facebook logo" style="width:50px;height:50px;">
-          <p><a href="https://www.facebook.com/Deldel29" target="_blank" rel="noopener">Rej Mirasol</a></p>
+          <p><a href="https://www.facebook.com/Deldel29" target="_blank" rel="noopener" style="color: white;">Rej Mirasol</a></p>
         </div>
         <div class="w3-third w3-teal">
-          <img src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo.png" alt="Instagram logo" style="width:75px;height:50px;">
-          <p><a href="https://www.instagram.com/rejrej16/" target="_blank" rel="noopener">rejrej16</a></p>
+          <img src="https://www.freeiconspng.com/thumbs/phone-icon/chat-phone-icon--stark-iconset--fruityth1ng-10.png" alt="phone number" style="width:50px;height:50px;">
+          <p><a target="_blank" rel="noopener" style="color: white;">+639461253973</a></p>
         </div>
-        <div class="w3-third w3-dark-grey">
-          <img src="https://logos-download.com/wp-content/uploads/2020/06/GCash_Logo.png" alt="GCASH logo" style="width:50px;height:50px;">
-          <p>GCASH: 09912065487</p>
+        <div class="w3-third w3-dark-grey" style="flex: 1;">
+          <img src="https://cdn.iconscout.com/icon/free/png-256/free-gmail-2981844-2476484.png?f=webp" alt="Gmail Logo" style="width:50px;height:50px;">
+          <p><a href="mailto:Regin.Dell.29@gmail.com" target="_blank" rel="noopener" style="color: white;">Regin.Dell.29@gmail.com</a></p>
         </div>
       </div>
       <hr class="w3-opacity">
     </div>
-</footer>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); z-index: 1;"></div>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif') no-repeat center center; background-size: cover; z-index: 0;"></div>
+  </footer>
+  
+  
 
 
 
